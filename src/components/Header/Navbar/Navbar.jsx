@@ -10,7 +10,7 @@ const Navbar = () => {
     { path: "/contact", pathName: "Contact" }
   ];
   return (
-    <div className=' bg-base-100 shadow-sm '>
+    <div className='bg-[#EFEFEF] shadow-sm'>
       <div className="navbar max-w-[1240px] w-full mx-auto px-2 lg:px-10">
         <div className="navbar-start">
           <div className="dropdown">
@@ -31,21 +31,21 @@ const Navbar = () => {
           </div>
           <Link to="/" className="text-xl flex items-center gap-2">
             <img src={logo} alt="Doc Care BD logo" />
-            <h3 className="text-2xl font-bold">DocCare BD</h3>
+            <h3 className="text-xl lg:text-2xl font-bold">DocCare BD</h3>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             {
-                links.map(link => (
-                  <li key={link.path}>
-                    <NavLink 
+              links.map(link => (
+                <li key={link.path}>
+                  <NavLink
                     to={link.path}
-                    className={({isActive}) => isActive && "border-b-2 rounded-b-none"}
-                    >{link.pathName}</NavLink>
-                  </li>
-                ))
-              }
+                    className={({ isActive }) => isActive && "border-b-2 rounded-b-none"}
+                  >{link.pathName}</NavLink>
+                </li>
+              ))
+            }
           </ul>
         </div>
         <div className="navbar-end">
