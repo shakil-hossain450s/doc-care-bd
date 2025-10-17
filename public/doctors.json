@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Dr. Ayesha Rahman",
+    "designation": "Cardiologist",
+    "experience": "12 years",
+    "Reg_no": "BD-MC-102345",
+    "details": "Specialist in adult and pediatric heart diseases.",
+    "education": "MBBS, MD (Cardiology)",
+    "category": "Heart Specialist",
+    "availability": [
+      "Sunday",
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "fee": 1000,
+    "hospital": "Dhaka Medical College"
+  },
+  {
+    "name": "Dr. Farhan Hossain",
+    "designation": "Neurologist",
+    "experience": "10 years",
+    "Reg_no": "BD-MC-112234",
+    "details": "Expert in treating brain and spine disorders.",
+    "education": "MBBS, MD (Neurology)",
+    "category": "Brain Specialist",
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Friday",
+      "Saturday"
+    ],
+    "fee": 1200,
+    "hospital": "Chittagong Medical College"
+  },
+  {
+    "name": "Dr. Nilufa Yasmin",
+    "designation": "Gynecologist",
+    "experience": "15 years",
+    "Reg_no": "BD-MC-109876",
+    "details": "Handles pregnancy care and female reproductive issues.",
+    "education": "MBBS, FCPS (Gynecology)",
+    "category": "Women’s Health",
+    "availability": [
+      "Sunday",
+      "Tuesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "fee": 950,
+    "hospital": "Rajshahi Medical College"
+  },
+  {
+    "name": "Dr. Rashed Ahmed",
+    "designation": "Dermatologist",
+    "experience": "8 years",
+    "Reg_no": "BD-MC-120987",
+    "details": "Treats skin, hair, and nail problems.",
+    "education": "MBBS, DDV",
+    "category": "Skin Specialist",
+    "availability": [
+      "Sunday",
+      "Monday",
+      "Wednesday",
+      "Friday",
+      "Saturday"
+    ],
+    "fee": 800,
+    "hospital": "Sylhet MAG Osmani Medical College"
+  },
+  {
+    "name": "Dr. Shabnam Chowdhury",
+    "designation": "Pediatrician",
+    "experience": "9 years",
+    "Reg_no": "BD-MC-110012",
+    "details": "Child healthcare expert from birth to adolescence.",
+    "education": "MBBS, MD (Pediatrics)",
+    "category": "Child Specialist",
+    "availability": [
+      "Sunday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "fee": 900,
+    "hospital": "Mymensingh Medical College"
+  },
+  {
+    "name": "Dr. Kazi Mahbub",
+    "designation": "Orthopedic Surgeon",
+    "experience": "11 years",
+    "Reg_no": "BD-MC-113311",
+    "details": "Expert in treating bone and joint problems.",
+    "education": "MBBS, MS (Orthopedics)",
+    "category": "Bone Specialist",
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "fee": 1100,
+    "hospital": "Barisal Medical College"
+  },
+  {
+    "name": "Dr. Nafisa Jahan",
+    "designation": "Ophthalmologist",
+    "experience": "7 years",
+    "Reg_no": "BD-MC-115599",
+    "details": "Treats vision issues and eye disorders.",
+    "education": "MBBS, FCPS (Ophthalmology)",
+    "category": "Eye Specialist",
+    "availability": [
+      "Sunday",
+      "Tuesday",
+      "Wednesday",
+      "Friday",
+      "Saturday"
+    ],
+    "fee": 850,
+    "hospital": "Rangpur Medical College"
+  },
+  {
+    "name": "Dr. Tanvir Rahman",
+    "designation": "ENT Specialist",
+    "experience": "10 years",
+    "Reg_no": "BD-MC-116788",
+    "details": "Specialist in ear, nose, and throat problems.",
+    "education": "MBBS, MS (ENT)",
+    "category": "ENT",
+    "availability": [
+      "Sunday",
+      "Monday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "fee": 1000,
+    "hospital": "Comilla Medical College"
+  },
+  {
+    "name": "Dr. Mahira Sultana",
+    "designation": "Psychiatrist",
+    "experience": "13 years",
+    "Reg_no": "BD-MC-117799",
+    "details": "Expert in mental health and psychiatric disorders.",
+    "education": "MBBS, FCPS (Psychiatry)",
+    "category": "Mental Health",
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "fee": 1300,
+    "hospital": "Shaheed Suhrawardy Medical College"
+  },
+  {
+    "name": "Dr. Shahriar Kabir",
+    "designation": "Nephrologist",
+    "experience": "14 years",
+    "Reg_no": "BD-MC-118888",
+    "details": "Treats kidney-related diseases and dialysis.",
+    "education": "MBBS, MD (Nephrology)",
+    "category": "Kidney Specialist",
+    "availability": [
+      "Sunday",
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "fee": 1150,
+    "hospital": "Sher-e-Bangla Medical College"
+  },
+  {
+    "name": "Dr. Farzana Ahmed",
+    "designation": "Endocrinologist",
+    "experience": "12 years",
+    "Reg_no": "BD-MC-119999",
+    "details": "Specialist in diabetes, thyroid, and hormone-related issues.",
+    "education": "MBBS, MD (Endocrinology)",
+    "category": "Hormone Specialist",
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "fee": 1050,
+    "hospital": "Khulna Medical College"
+  },
+  {
+    "name": "Dr. Rifat Hossain",
+    "designation": "Gastroenterologist",
+    "experience": "9 years",
+    "Reg_no": "BD-MC-121212",
+    "details": "Handles stomach, liver, and digestion-related problems.",
+    "education": "MBBS, MD (Gastroenterology)",
+    "category": "Digestive Specialist",
+    "availability": [
+      "Sunday",
+      "Tuesday",
+      "Wednesday",
+      "Friday",
+      "Saturday"
+    ],
+    "fee": 980,
+    "hospital": "Noakhali Medical College"
+  }
+]
