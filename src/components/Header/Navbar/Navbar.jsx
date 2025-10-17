@@ -1,4 +1,14 @@
+import { Link, NavLink } from "react-router";
+import logo from "../../../assets/logo.png";
+import PrimaryButton from "../../PrimaryButton/PrimaryButton";
+
 const Navbar = () => {
+  const links = [
+    { path: "/", pathName: "Home" },
+    { path: "/bookings", pathName: "Bookings" },
+    { path: "/blogs", pathName: "Blogs" },
+    { path: "/contact", pathName: "Contact" }
+  ];
   return (
     <div className=' bg-base-100 shadow-sm '>
       <div className="navbar max-w-[1240px] w-full mx-auto px-2 lg:px-10">
@@ -10,20 +20,36 @@ const Navbar = () => {
             <ul
               tabIndex="-1"
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-              <li><a>Item 1</a></li>
-              <li><a>Item 3</a></li>
+              {
+                links.map(link => (
+                  <li key={link.path}>
+                    <NavLink to={link.path}>{link.pathName}..</NavLink>
+                  </li>
+                ))
+              }
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <Link to="/" className="text-xl flex items-center gap-2">
+            <img src={logo} alt="Doc Care BD logo" />
+            <h3 className="text-2xl font-bold">DocCare BD</h3>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li><a>Item 1</a></li>
-            <li><a>Item 3</a></li>
+            {
+                links.map(link => (
+                  <li key={link.path}>
+                    <NavLink 
+                    to={link.path}
+                    className={({isActive}) => isActive && "border-b-2 rounded-b-none"}
+                    >{link.pathName}</NavLink>
+                  </li>
+                ))
+              }
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <PrimaryButton btnText={"Emergency"}></PrimaryButton>
         </div>
       </div>
     </div>
