@@ -22,7 +22,7 @@ const Doctors = ({ doctorsPromise }) => {
         description={"Our platform connects you with verified, experienced doctors across various specialties — all at your convenience. Whether it's a routine checkup or urgent consultation, book appointments in minutes and receive quality care you can trust."}
       ></SectionHeader>
 
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {
           visibleDoctors.map(doctor => (
             <Doctor key={doctor.id} doctor={doctor}></Doctor>

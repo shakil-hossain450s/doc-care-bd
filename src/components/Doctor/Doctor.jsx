@@ -1,7 +1,8 @@
+import { Link } from "react-router";
 
 
 const Doctor = ({ doctor }) => {
-  const { image, name, experience, Reg_no, education } = doctor;
+  const { id, image, name, experience, Reg_no, education } = doctor;
 
   return (
     <div className="bg-base-100 shadow-sm p-5 rounded-2xl">
@@ -29,7 +30,9 @@ const Doctor = ({ doctor }) => {
         <div className="border-b border-dashed border-[#0F0F0F33] my-3"></div>
 
         <p className="text-lg font-semibold text-[#0F0F0FB3]">Reg no: {Reg_no}</p>
-        <button className="btn w-full mt-4 rounded-full border-[#176AE5] text-[#176AE5] hover:bg-[#176AE5] hover:text-white">View Details</button>
+        <Link to={`/doctor/${id}`}>
+          <button className="btn w-full mt-4 rounded-full border-[#176AE5] text-[#176AE5] hover:bg-[#176AE5] hover:text-white">View Details</button>
+        </Link>
       </div>
     </div>
   );
