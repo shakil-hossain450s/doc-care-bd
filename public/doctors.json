@@ -1,8 +1,9 @@
 [
   {
+    "id": "3b9e3a22-ff77-4b44-a5cc-feb60a83cb48",
     "name": "Dr. Ayesha Rahman",
     "designation": "Cardiologist",
-    "experience": "12 years",
+    "experience": "12+ years",
     "Reg_no": "BD-MC-102345",
     "details": "Specialist in adult and pediatric heart diseases.",
     "education": "MBBS, MD (Cardiology)",
@@ -15,12 +16,14 @@
       "Saturday"
     ],
     "fee": 1000,
-    "hospital": "Dhaka Medical College"
+    "hospital": "Dhaka Medical College",
+    "image": "https://i.ibb.co.com/NdW1bK9j/doctor-Image.png"
   },
   {
+    "id": "f4b28a9b-4238-4c91-a6a1-23f20b09bb64",
     "name": "Dr. Farhan Hossain",
     "designation": "Neurologist",
-    "experience": "10 years",
+    "experience": "10+ years",
     "Reg_no": "BD-MC-112234",
     "details": "Expert in treating brain and spine disorders.",
     "education": "MBBS, MD (Neurology)",
@@ -33,12 +36,14 @@
       "Saturday"
     ],
     "fee": 1200,
-    "hospital": "Chittagong Medical College"
+    "hospital": "Chittagong Medical College",
+    "image": "https://i.ibb.co.com/NdW1bK9j/doctor-Image.png"
   },
   {
+    "id": "7a2d34cd-86b1-4de8-8b62-1a91cf3c0a45",
     "name": "Dr. Nilufa Yasmin",
     "designation": "Gynecologist",
-    "experience": "15 years",
+    "experience": "15+ years",
     "Reg_no": "BD-MC-109876",
     "details": "Handles pregnancy care and female reproductive issues.",
     "education": "MBBS, FCPS (Gynecology)",
@@ -51,12 +56,14 @@
       "Saturday"
     ],
     "fee": 950,
-    "hospital": "Rajshahi Medical College"
+    "hospital": "Rajshahi Medical College",
+    "image": "https://i.ibb.co.com/NdW1bK9j/doctor-Image.png"
   },
   {
+    "id": "66b3d51d-13dc-4a07-a1a0-5af90f9c0dc9",
     "name": "Dr. Rashed Ahmed",
     "designation": "Dermatologist",
-    "experience": "8 years",
+    "experience": "8 +years",
     "Reg_no": "BD-MC-120987",
     "details": "Treats skin, hair, and nail problems.",
     "education": "MBBS, DDV",
@@ -69,12 +76,14 @@
       "Saturday"
     ],
     "fee": 800,
-    "hospital": "Sylhet MAG Osmani Medical College"
+    "hospital": "Sylhet MAG Osmani Medical College",
+    "image": "https://i.ibb.co.com/NdW1bK9j/doctor-Image.png"
   },
   {
+    "id": "2e6b7125-83bb-467c-bb4f-42c9cdd170df",
     "name": "Dr. Shabnam Chowdhury",
     "designation": "Pediatrician",
-    "experience": "9 years",
+    "experience": "9 +years",
     "Reg_no": "BD-MC-110012",
     "details": "Child healthcare expert from birth to adolescence.",
     "education": "MBBS, MD (Pediatrics)",
@@ -87,12 +96,14 @@
       "Saturday"
     ],
     "fee": 900,
-    "hospital": "Mymensingh Medical College"
+    "hospital": "Mymensingh Medical College",
+    "image": "https://i.ibb.co.com/NdW1bK9j/doctor-Image.png"
   },
   {
+    "id": "6c3c79b1-b5cb-4a71-b13e-f1a8fd3b445e",
     "name": "Dr. Kazi Mahbub",
     "designation": "Orthopedic Surgeon",
-    "experience": "11 years",
+    "experience": "11+ years",
     "Reg_no": "BD-MC-113311",
     "details": "Expert in treating bone and joint problems.",
     "education": "MBBS, MS (Orthopedics)",
@@ -105,12 +116,14 @@
       "Saturday"
     ],
     "fee": 1100,
-    "hospital": "Barisal Medical College"
+    "hospital": "Barisal Medical College",
+    "image": "https://i.ibb.co.com/NdW1bK9j/doctor-Image.png"
   },
   {
+    "id": "8c9f0b7d-2d74-46d7-a983-9379d06c191e",
     "name": "Dr. Nafisa Jahan",
     "designation": "Ophthalmologist",
-    "experience": "7 years",
+    "experience": "7 +years",
     "Reg_no": "BD-MC-115599",
     "details": "Treats vision issues and eye disorders.",
     "education": "MBBS, FCPS (Ophthalmology)",
@@ -123,12 +136,14 @@
       "Saturday"
     ],
     "fee": 850,
-    "hospital": "Rangpur Medical College"
+    "hospital": "Rangpur Medical College",
+    "image": "https://i.ibb.co.com/NdW1bK9j/doctor-Image.png"
   },
   {
+    "id": "c5b62ff4-0a35-4239-b0b9-03e9a72c46da",
     "name": "Dr. Tanvir Rahman",
     "designation": "ENT Specialist",
-    "experience": "10 years",
+    "experience": "10+ years",
     "Reg_no": "BD-MC-116788",
     "details": "Specialist in ear, nose, and throat problems.",
     "education": "MBBS, MS (ENT)",
@@ -141,12 +156,14 @@
       "Saturday"
     ],
     "fee": 1000,
-    "hospital": "Comilla Medical College"
+    "hospital": "Comilla Medical College",
+    "image": "https://i.ibb.co.com/NdW1bK9j/doctor-Image.png"
   },
   {
+    "id": "c1c8ff2d-8a3d-4e4d-92d7-c4cc57f0deef",
     "name": "Dr. Mahira Sultana",
     "designation": "Psychiatrist",
-    "experience": "13 years",
+    "experience": "13+ years",
     "Reg_no": "BD-MC-117799",
     "details": "Expert in mental health and psychiatric disorders.",
     "education": "MBBS, FCPS (Psychiatry)",
@@ -159,12 +176,14 @@
       "Saturday"
     ],
     "fee": 1300,
-    "hospital": "Shaheed Suhrawardy Medical College"
+    "hospital": "Shaheed Suhrawardy Medical College",
+    "image": "https://i.ibb.co.com/NdW1bK9j/doctor-Image.png"
   },
   {
+    "id": "01d46963-c20a-4a65-8ef5-3d5a3e5861e8",
     "name": "Dr. Shahriar Kabir",
     "designation": "Nephrologist",
-    "experience": "14 years",
+    "experience": "14+ years",
     "Reg_no": "BD-MC-118888",
     "details": "Treats kidney-related diseases and dialysis.",
     "education": "MBBS, MD (Nephrology)",
@@ -177,12 +196,14 @@
       "Saturday"
     ],
     "fee": 1150,
-    "hospital": "Sher-e-Bangla Medical College"
+    "hospital": "Sher-e-Bangla Medical College",
+    "image": "https://i.ibb.co.com/NdW1bK9j/doctor-Image.png"
   },
   {
+    "id": "9c62e4d5-3d87-4c87-8b59-8a9319e4e178",
     "name": "Dr. Farzana Ahmed",
     "designation": "Endocrinologist",
-    "experience": "12 years",
+    "experience": "12+ years",
     "Reg_no": "BD-MC-119999",
     "details": "Specialist in diabetes, thyroid, and hormone-related issues.",
     "education": "MBBS, MD (Endocrinology)",
@@ -195,12 +216,14 @@
       "Saturday"
     ],
     "fee": 1050,
-    "hospital": "Khulna Medical College"
+    "hospital": "Khulna Medical College",
+    "image": "https://i.ibb.co.com/NdW1bK9j/doctor-Image.png"
   },
   {
+    "id": "1c9b92a0-cb64-4eb7-8de9-6c544d6ad2ed",
     "name": "Dr. Rifat Hossain",
     "designation": "Gastroenterologist",
-    "experience": "9 years",
+    "experience": "9 +years",
     "Reg_no": "BD-MC-121212",
     "details": "Handles stomach, liver, and digestion-related problems.",
     "education": "MBBS, MD (Gastroenterology)",
@@ -213,6 +236,7 @@
       "Saturday"
     ],
     "fee": 980,
-    "hospital": "Noakhali Medical College"
+    "hospital": "Noakhali Medical College",
+    "image": "https://i.ibb.co.com/NdW1bK9j/doctor-Image.png"
   }
 ]

@@ -1,11 +1,10 @@
-import React from 'react';
 import PrimaryButton from '../../PrimaryButton/PrimaryButton';
 import Banner1 from '../../../assets/banner1.png';
 import Banner2 from '../../../assets/banner2.jpg';
 
 const Banner = () => {
   return (
-    <div className='p-4 lg:p-16 border-2 border-[#FFFFFFFF] rounded-xl'>
+    <div className='p-4 lg:p-16 border-2 border-[#FFFFFFFF] rounded-xl shadow'>
       <div className='text-center lg:w-[950px] w-full mx-auto'>
         <h2 className='text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4 text-[#0F0F0FFF] leading-10 lg:leading-16'>Dependable Care, Backed by Trusted Professionals.</h2>
         <p className='text-[#0F0F0FFF]'>
@@ -15,7 +14,7 @@ const Banner = () => {
           <input 
           type="text" 
           placeholder='Search any doctor...'
-          className='text-[#9CA3AF] bg-white outline-none border border-[#9CA3AF] px-6 rounded-full w-full'
+          className='text-[#9CA3AF] shadow-sm bg-white outline-none px-6 rounded-full w-full'
            />
            <PrimaryButton btnText={"Search Now"}></PrimaryButton>
         </div>
