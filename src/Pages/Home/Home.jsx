@@ -5,7 +5,7 @@ import Loader from "../../components/Loader/Loader";
 import Counter from "../../components/Counter/Counter";
 
 const fetchDoctors = async () => {
-  const res = await fetch("./doctors.json");
+  const res = await fetch("/doctors.json");
   return res.json();
 }
 
