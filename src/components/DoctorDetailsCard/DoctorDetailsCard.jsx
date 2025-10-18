@@ -27,7 +27,7 @@ const DoctorDetailsCard = ({ singleDoctor }) => {
         <div className="border-b border-dashed border-[#0F0F0F33] my-2"></div>
 
         <div>
-          <p className=''>Availability:
+          <p>Availability:
             {
               availability.map(item => (
                 <span
