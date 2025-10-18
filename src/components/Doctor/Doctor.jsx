@@ -2,7 +2,10 @@ import { Link } from "react-router";
 
 
 const Doctor = ({ doctor }) => {
-  const { id, image, name, experience, Reg_no, education } = doctor;
+  const { id, image, name, experience, Reg_no, education, availability } = doctor;
+
+  const dayName = new Date().toLocaleDateString("en-US", { weekday: "long" });
+  const isAvailable = availability.includes(dayName);
 
   return (
     <div className="bg-base-100 shadow-sm p-5 rounded-2xl">
@@ -14,10 +17,17 @@ const Doctor = ({ doctor }) => {
       </figure>
       <div className="p-0 pt-4">
         <div className="flex gap-4 items-center mb-4">
-          <span
-            className="text-[#09982F] bg-[#09982F1A] border border-[#09982F33] px-4 py-1 rounded-full font-medium">
-            <small>Available</small>
+          {
+            isAvailable ?
+              <span
+                className="text-[#09982F] bg-[#09982F1A] border border-[#09982F33] px-4 py-1 rounded-full font-medium">
+                <small>Available</small>
+              </span> :
+              <span
+            className="text-red-400 bg-red-100 border border-red-400 px-4 py-1 rounded-full font-medium">
+            <small>Not Available</small>
           </span>
+          }
           <span
             className="text-[#176AE5] bg-[#176AE51A] border border-[#176AE533] px-4 py-1 rounded-full font-medium capitalize">
             <small>{experience} Experience</small>

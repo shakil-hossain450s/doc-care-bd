@@ -10,10 +10,8 @@
     "category": "Heart Specialist",
     "availability": [
       "Sunday",
-      "Monday",
-      "Wednesday",
-      "Thursday",
-      "Saturday"
+      "Tuesday",
+      "Friday"
     ],
     "fee": 1000,
     "hospital": "Dhaka Medical College",
@@ -29,10 +27,9 @@
     "education": "MBBS, MD (Neurology)",
     "category": "Brain Specialist",
     "availability": [
+      "Sunday",
       "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Friday",
+      "Thursday",
       "Saturday"
     ],
     "fee": 1200,
@@ -49,11 +46,9 @@
     "education": "MBBS, FCPS (Gynecology)",
     "category": "Women’s Health",
     "availability": [
-      "Sunday",
-      "Tuesday",
-      "Thursday",
-      "Friday",
-      "Saturday"
+      "Monday",
+      "Wednesday",
+      "Friday"
     ],
     "fee": 950,
     "hospital": "Rajshahi Medical College",
@@ -69,10 +64,8 @@
     "education": "MBBS, DDV",
     "category": "Skin Specialist",
     "availability": [
-      "Sunday",
-      "Monday",
-      "Wednesday",
-      "Friday",
+      "Tuesday",
+      "Thursday",
       "Saturday"
     ],
     "fee": 800,
@@ -89,11 +82,9 @@
     "education": "MBBS, MD (Pediatrics)",
     "category": "Child Specialist",
     "availability": [
-      "Sunday",
-      "Tuesday",
+      "Monday",
       "Wednesday",
-      "Thursday",
-      "Saturday"
+      "Friday"
     ],
     "fee": 900,
     "hospital": "Mymensingh Medical College",
@@ -109,11 +100,10 @@
     "education": "MBBS, MS (Orthopedics)",
     "category": "Bone Specialist",
     "availability": [
+      "Sunday",
       "Monday",
       "Tuesday",
-      "Thursday",
-      "Friday",
-      "Saturday"
+      "Thursday"
     ],
     "fee": 1100,
     "hospital": "Barisal Medical College",
@@ -129,11 +119,9 @@
     "education": "MBBS, FCPS (Ophthalmology)",
     "category": "Eye Specialist",
     "availability": [
-      "Sunday",
-      "Tuesday",
+      "Monday",
       "Wednesday",
-      "Friday",
-      "Saturday"
+      "Thursday"
     ],
     "fee": 850,
     "hospital": "Rangpur Medical College",
@@ -149,9 +137,7 @@
     "education": "MBBS, MS (ENT)",
     "category": "ENT",
     "availability": [
-      "Sunday",
-      "Monday",
-      "Thursday",
+      "Wednesday",
       "Friday",
       "Saturday"
     ],
@@ -169,11 +155,10 @@
     "education": "MBBS, FCPS (Psychiatry)",
     "category": "Mental Health",
     "availability": [
-      "Monday",
+      "Sunday",
       "Tuesday",
-      "Wednesday",
       "Thursday",
-      "Saturday"
+      "Friday"
     ],
     "fee": 1300,
     "hospital": "Shaheed Suhrawardy Medical College",
@@ -189,11 +174,9 @@
     "education": "MBBS, MD (Nephrology)",
     "category": "Kidney Specialist",
     "availability": [
-      "Sunday",
-      "Monday",
+      "Tuesday",
       "Wednesday",
-      "Thursday",
-      "Saturday"
+      "Thursday"
     ],
     "fee": 1150,
     "hospital": "Sher-e-Bangla Medical College",
@@ -209,11 +192,10 @@
     "education": "MBBS, MD (Endocrinology)",
     "category": "Hormone Specialist",
     "availability": [
+      "Sunday",
       "Monday",
-      "Tuesday",
       "Wednesday",
-      "Thursday",
-      "Saturday"
+      "Friday"
     ],
     "fee": 1050,
     "hospital": "Khulna Medical College",
@@ -229,10 +211,9 @@
     "education": "MBBS, MD (Gastroenterology)",
     "category": "Digestive Specialist",
     "availability": [
-      "Sunday",
-      "Tuesday",
+      "Monday",
       "Wednesday",
-      "Friday",
+      "Thursday",
       "Saturday"
     ],
     "fee": 980,

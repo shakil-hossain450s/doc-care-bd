@@ -5,7 +5,6 @@ import { useState } from "react";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
 import AppointCard from "../../components/AppointCard/AppointCard";
 import { toast } from "react-toastify";
-import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import AppointmentRechart from "../../components/AppoinmentRechart/AppointmentRechart";
 
 const Bookings = () => {

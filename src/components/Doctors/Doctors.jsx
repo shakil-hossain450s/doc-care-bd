@@ -12,7 +12,7 @@ const Doctors = ({ doctorsPromise }) => {
     if (doctorsData && doctorsData.length > 0) {
       setVisibleDoctors(showAll ? doctorsData : doctorsData.slice(0, 6));
     }
-  }, [doctorsData, showAll])
+  }, [doctorsData, showAll]);
 
 
   return (
