@@ -8,18 +8,22 @@ import DoctorDetails from "../components/DoctorDetails/DoctorDetails";
 
 const router = createBrowserRouter([
   {
-    path: "/", 
+    path: "/",
     Component: Root,
     children: [
-      {index: true, path: "/", Component: Home},
+      { index: true, path: "/", Component: Home },
       {
         path: "/doctor/:id",
         loader: () => fetch('/doctors.json'),
         Component: DoctorDetails
       },
-      {path: "/bookings", Component: Bookings},
-      {path: "/blogs", Component: Blogs},
-      {path: "/contact", Component: Contact},
+      {
+        path: "/bookings",
+        loader: () => fetch("/doctors.json"),
+        Component: Bookings
+      },
+      { path: "/blogs", Component: Blogs },
+      { path: "/contact", Component: Contact },
     ]
   }
 ]);

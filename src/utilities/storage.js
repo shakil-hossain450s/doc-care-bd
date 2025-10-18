@@ -25,4 +25,17 @@ const addDoctorsToStorage = (key, id) => {
   }
 }
 
-export { getDoctorsFromStorage, addDoctorsToStorage };
+const removeFromStorage = (key, doctorId) => {
+  try {
+    const getIds = getDoctorsFromStorage(key);
+    const remainingIds = getIds.filter(id => id !== doctorId);
+    saveToLocalStorage(key, remainingIds);
+    return true;
+  } catch(err){
+    console.log(err);
+    return false;
+  }
+
+}
+
+export { getDoctorsFromStorage, addDoctorsToStorage, removeFromStorage };
