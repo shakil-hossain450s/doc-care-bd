@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "title": "What is useState and how does it work in React?",
+      "answer": "useState is a React Hook that allows you to add state to functional components. It returns an array with two elements: the current state value and a function to update that value. When the update function is called, React re-renders the component with the new state.",
+      "addedDate": "2025-10-18"
+    },
+    {
+      "id": 2,
+      "title": "What is the purpose of useEffect in React?",
+      "answer": "useEffect is a Hook used to handle side effects in React functional components. It's commonly used for data fetching, subscriptions, or manually changing the DOM. The effect runs after the render, and you can specify dependencies to control when it re-runs.",
+      "addedDate": "2025-10-18"
+    },
+    {
+      "id": 3,
+      "title": "What is a custom hook in React and when should you use one?",
+      "answer": "A custom hook is a JavaScript function that starts with 'use' and allows you to reuse stateful logic between components. You should use a custom hook when you have repetitive logic involving hooks like useState or useEffect that can be abstracted into a reusable function.",
+      "addedDate": "2025-10-18"
+    },
+    {
+      "id": 4,
+      "title": "Difference about controlled and uncontrolled component? which one is better?",
+      "answer": "Controlled components are React components where form data is handled by the component's state using useState. Uncontrolled components store form data in the DOM itself via refs. Controlled components provide more control and are easier to validate, so they are generally preferred in modern React applications.",
+      "addedDate": "2025-10-18"
+    },
+    {
+      "id": 5,
+      "title": "Tell us something about useFormStatus()",
+      "answer": "useFormStatus is a hook from React’s experimental or server components ecosystem (often used with React Server Actions). It allows you to check the status of a form submission (like pending or complete), making it useful for showing loading indicators or disabling inputs during submission.",
+      "addedDate": "2025-10-18"
+    }
+  ]

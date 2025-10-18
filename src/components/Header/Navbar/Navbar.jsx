@@ -23,7 +23,10 @@ const Navbar = () => {
               {
                 links.map(link => (
                   <li key={link.path}>
-                    <NavLink to={link.path}>{link.pathName}..</NavLink>
+                    <NavLink
+                      to={link.path}
+                      className={({ isActive }) => isActive && "border-b-2 rounded-b-none font-bold"}
+                    >{link.pathName}..</NavLink>
                   </li>
                 ))
               }
@@ -41,7 +44,7 @@ const Navbar = () => {
                 <li key={link.path}>
                   <NavLink
                     to={link.path}
-                    className={({ isActive }) => isActive && "border-b-2 rounded-b-none"}
+                    className={({ isActive }) => isActive && "border-b-2 rounded-b-none font-bold"}
                   >{link.pathName}</NavLink>
                 </li>
               ))

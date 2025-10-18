@@ -22,7 +22,11 @@ const router = createBrowserRouter([
         loader: () => fetch("/doctors.json"),
         Component: Bookings
       },
-      { path: "/blogs", Component: Blogs },
+      {
+        path: "/blogs",
+        loader: () => fetch("/blogs.json"),
+        Component: Blogs
+      },
       { path: "/contact", Component: Contact },
     ]
   }
